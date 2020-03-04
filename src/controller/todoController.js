@@ -6,7 +6,7 @@ exports.getCompleted = (req, res, next) => {
         if (error) {
             return console.dir(error);
         }
-        res.send(body)
+        res.json(JSON.parse(body))
         //console.dir(JSON.parse(body));
     });
 };

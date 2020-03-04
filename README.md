@@ -20,10 +20,19 @@ npm install
 npm start
 ```
 
-## Run tests
+## Routes
 
 ```sh
-npm run test
+
+* get all  /api/vehiculo
+* get by id  /api/vehiculo/id
+* post  /api/vehiculo/
+* patch  /api/vehiculo/id
+* delete  /api/vehiculo/id
+
+*getCompleted /api/todo
+
+
 ```
 
 ## Author
@@ -47,7 +56,7 @@ Give a ⭐️ if this project helped you!
 
 ## 📝 License
 
-Copyright © 2020 [Fabio Andres Roa Garcia](https://github.com/senseiRoa).
+Copyright &copy; 2020 [Fabio Andres Roa Garcia](https://github.com/senseiRoa).
 
 This project is [ISC](https://github.com/senseiRoa/nodeCrudExample/blob/master/LICENSE) licensed.
 
